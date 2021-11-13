@@ -1,0 +1,177 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+div.head {
+  width: 400px;
+  height: 300px;
+  background: white;
+  border: 10px solid #000;
+  border-radius: 88% 88% 81% 81%;
+  left: 150px;
+  top: 150px;
+  position: absolute;
+}
+
+div.head div.item {
+  background: #000;
+  position: absolute;
+  z-index: 1;
+}
+
+div.head div.item-1 {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  right: 57%;
+  bottom: -14%;
+}
+
+div.head div.item-2 {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  right: 22%;
+  bottom: -15%;
+}
+
+div.head div.item-3 {
+  width: 130px;
+  height: 100px;
+  border-radius: 30% 70%;
+  right: 7%;
+  bottom: 20%;
+}
+
+div.head div.item-4 {
+  width: 130px;
+  height: 100px;
+  border-radius: 70% 30%;
+  right: 59%;
+  bottom: 20%;
+}
+
+div.head div.item-5 {
+  width: 120px;
+  height: 100px;
+  border-radius: 60% 45%;
+  right: -9%;
+  bottom: 59%;
+  z-index: -1;
+}
+
+div.head div.item-6 {
+  width: 35px;
+  height: 25px;
+  border-radius: 50%;
+  left: 45%;
+  top: 65%;
+  position: absolute;
+}
+
+div.head div.box-1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  left: 62%;
+  top: 53%;
+  background: #46a1c5;
+  position: absolute;
+  z-index: 10;
+}
+
+div.head div.box-2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  left: 26%;
+  top: 53%;
+  background: #46a1c5;
+  position: absolute;
+  z-index: 10;
+}
+
+div.head div.box-3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 20%;
+  top: 51%;
+  background: skyblue;
+  position: absolute;
+  z-index: 10;
+}
+
+div.head div.box-4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 76%;
+  top: 51%;
+  background: skyblue;
+  position: absolute;
+  z-index: 10;
+}
+
+div.head img.nose {
+  width: 29px;
+  height: 21px;
+  left: 46%;
+  top: 72%;
+  position: absolute;
+}
+
+div.head img.heads {
+  width: 400px;
+  height: 300px;
+  left: -18%;
+  top: -54%;
+  position: absolute;
+}
+
+div.head img.heard {
+  width: 33px;
+  height: 33px;
+  left: 71%;
+  top: 20%;
+  position: absolute;
+}
+
+div.body {
+  width: 250px;
+  height: 190px;
+  background: white;
+  border: 10px solid #000;
+  border-radius: 114% 114% 114% 114%;
+  left: 230px;
+  top: 400px;
+  z-index: -1;
+  position: absolute;
+}
+
+div.body div.foot-1 {
+  width: 120px;
+  height: 100px;
+  border-radius: 30% 60%;
+  right: 63%;
+  bottom: -20%;
+}
+
+div.body div.foot-2 {
+  width: 120px;
+  height: 100px;
+  border-radius: 60% 30%;
+  right: -14%;
+  bottom: -20%;
+}
+
+div.body div.item {
+  background: #000;
+  position: absolute;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
